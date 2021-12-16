@@ -1,18 +1,23 @@
 # WebApplication
 ## Functionality
 
+- Create an account 
+- Registration
+    - via username 
+    - password
+    - contact number
+    - email
+    - address
+    - profile image
+    
 - Log in
     - via username & password
-    - via email & password
-    - via email or username & password
-    - with a remember me checkbox (optional)
-- Create an account
+    
+- Edit Profile
+    - Change password
+    - Change contact number
+    - Change email
+    - Change address
+    - Change profile image
+
 - Log out
-- Profile activation via email
-- Reset password
-- Remind a username
-- Resend an activation code
-- Change password
-- Change email
-- Change profile
-- Multilingual: English, French, Russian, and Simplified Chinese
