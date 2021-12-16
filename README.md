@@ -23,7 +23,7 @@
 - Log out
 
 
-## Installing
+## Installations and Setup
 
 ### Install pip
 
