@@ -50,6 +50,25 @@ mysql> select * from user;
 ```
 
 Database can be accessed in this way in order to see what are present in it whenever it is updated. 
+
+Getting started
+----------------
+1.Change the default DATABASES in settings.py:
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'user',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '1234',
+	'OPTIONS': {
+          'autocommit': True,
+        },     
+    }
+}
+```
  
 ## Installations and Setup
 
@@ -80,6 +99,11 @@ activate
 cd..
 cd..
 ```
+### Installing all dependencies to project 
+```
+pip freeze > requirements.txt
+```
+
 ### Install Django
 
 ```
