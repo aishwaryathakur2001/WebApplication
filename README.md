@@ -85,7 +85,7 @@ python source/manage.py collectstatic
 
 ### Running
 
-#### A development server
+#### Start the server
 
 Run this command:
 
@@ -93,4 +93,13 @@ Run this command:
 python manage.py runserver
 ```
 
+How to access URLs
+
+Copy `http://127.0.0.1:8000/` url and paste it on website
+
+Ways to access different pages: 
+
+http://127.0.0.1:8000/index.html     -> This will take you to home page
+http://127.0.0.1:8000/register.html  -> This will take you to user registration page
+http://127.0.0.1:8000/Login.html  -> This will take you to user login page
 
