@@ -22,7 +22,33 @@
 
 - Log out
 
+## Database
 
+### Creating the database
+```
+mysql> create database user;
+mysql> use user;
+```
+### Creating table
+```
+mysql> create table register(email varchar(30) primary key,
+contact varchar(15),
+name varchar(30),
+dob varchar(15),
+password varchar(30));
+```
+
+
+mysql> show tables;
+mysql> desc tables;
+
+### Display contents of table
+```
+mysql> select * from user;
+```
+
+Database can be accessed in this way in order to see what are present in it whenever it is updated. 
+ 
 ## Installations and Setup
 
 ### Install pip
@@ -74,13 +100,14 @@ cd WebApp
 ### Apply migrations
 
 ```
-python source/manage.py migrate
+python manage.py makemigrations
+python manage.py sqlmigrate user generated_number
 ```
 
 ### Collect static files (only on a production server)
 
 ```
-python source/manage.py collectstatic
+python manage.py collectstatic
 ```
 
 ### Running
