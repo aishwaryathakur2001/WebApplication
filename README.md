@@ -53,7 +53,7 @@ Database can be accessed in this way in order to see what are present in it when
 
 Getting started
 ----------------
-1.Change the default DATABASES in settings.py:
+Change the default DATABASES in settings.py:
 ```python
 DATABASES = {
     'default': {
