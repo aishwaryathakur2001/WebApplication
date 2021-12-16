@@ -93,7 +93,7 @@ django-admin startproject WebApp
 cd WebApp
 ```
 
-### Configure the settings (connection to the database, connection to an SMTP server, and other options)
+### Configure the settings (connection to the database, and other options)
 
 1. Edit `source/app/conf/development/settings.py` if you want to develop the project.
 
