@@ -61,8 +61,8 @@ pip install django
 ### Create a Django project
 
 ```
-django-admin startproject project_name
-cd project_name
+django-admin startproject WebApp
+cd WebApp
 ```
 
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
