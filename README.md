@@ -25,7 +25,7 @@
 
 ## Installing
 
-### Installation of pip
+### Install pip
 
 ```
 python -m pip install -U pip
