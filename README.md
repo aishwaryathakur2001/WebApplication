@@ -32,15 +32,17 @@ mysql> use user;
 ### Creating table
 ```
 mysql> create table register(email varchar(30) primary key,
-contact varchar(15),
-name varchar(30),
-dob varchar(15),
-password varchar(30));
+    -> contact varchar(15),
+    -> name varchar(30),
+    -> dob varchar(15),
+    -> password varchar(30));
 ```
 
-
+### Show Tables
+```
 mysql> show tables;
 mysql> desc tables;
+```
 
 ### Display contents of table
 ```
