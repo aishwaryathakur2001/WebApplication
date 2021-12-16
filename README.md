@@ -93,12 +93,6 @@ django-admin startproject WebApp
 cd WebApp
 ```
 
-### Configure the settings (connection to the database, and other options)
-
-1. Edit `source/app/conf/development/settings.py` if you want to develop the project.
-
-2. Edit `source/app/conf/production/settings.py` if you want to run the project in production.
-
 ### Apply migrations
 
 ```
