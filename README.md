@@ -25,20 +25,44 @@
 
 ## Installing
 
-### Clone the project
+### Installation of pip
 
 ```
-git clone https://github.com/egorsmkv/simple-django-login-and-register
-cd simple-django-login-and-register
+python -m pip install -U pip
 ```
 
-### Install dependencies & activate virtualenv
+### Install virtual environment
 
 ```
-pip install pipenv
+pip install virtualenv
+```
 
-pipenv install
-pipenv shell
+### Create a virtual environment
+
+```
+virtualenv venv
+```
+
+### Activation of virtual environment
+
+```
+cd venv
+cd Scripts 
+activate
+cd..
+cd..
+```
+### Install Django
+
+```
+pip install django
+```
+
+### Create a Django project
+
+```
+django-admin startproject project_name
+cd project_name
 ```
 
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
@@ -68,3 +92,5 @@ Run this command:
 ```
 python manage.py runserver
 ```
+
+
